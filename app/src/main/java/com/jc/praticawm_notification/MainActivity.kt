@@ -82,13 +82,13 @@ class MainActivity : AppCompatActivity() {
 
         val difTiempo = (futuro.time - hoy.time) / 1000
         if (difTiempo < 900) {
-            Toast.makeText(this, "El tiempo debe ser almenos de 15 minutos ", Toast.LENGTH_LONG).show()
+            Toast.makeText(this, "El tiempo del recordatorio debe ser almenos de 15 minutos ", Toast.LENGTH_LONG).show()
             return false
         }
 
-        Log.i("[PASO]", "001 Hoy[" + hoy.time.toString() + "]")
-        Log.i("[PASO]", "002 Fut[" + futuro.time.toString() + "]")
-        Log.i("[PASO]", "003 Dif[" + difTiempo.toString() + "]")
+        Log.i("[PASO]", "x001 Hoy[" + hoy.time.toString() + "]")
+        Log.i("[PASO]", "x002 Fut[" + futuro.time.toString() + "]")
+        Log.i("[PASO]", "x003 Dif[" + difTiempo.toString() + "]")
 
         val wm = WorkManager.getInstance(applicationContext)
         val miMsg: Data = Data.Builder()
