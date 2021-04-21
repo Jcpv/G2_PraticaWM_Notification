@@ -2,5 +2,5 @@
 Practica de WM y Notificación con temporizador
 
 Practica realizada por 
-- Jorge 
-- José Cándido Pérez  
+- Pineda López Jorge
+- Pérez Vázquez José Cándido
